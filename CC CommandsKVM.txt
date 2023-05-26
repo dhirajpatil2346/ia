@@ -1,0 +1,17 @@
+sudo virt-manager // is a desktop user interface for managing virtual machines through libvirt
+sudo apt install cpu-checker // ibvirt is an open-source API, daemon and management tool for
+managing platform virtualization. It can be used to manage KVM,
+sudo kvm-ok
+sudo apt update
+sudo apt install qemu qemu-kvm libvirt-bin bridge-utils virt-manager
+sudo service libvirtd start
+sudo update-rc.d libvirtd enable
+service libvirtd status
+sudo vi /etc/netplan/50-cloud-init.yaml
+sudo netplan apply //a utility for easily configuring networking on a linux system.
+sudo netplan --debug apply
+sudo networkctl status -a // Creating a bridge for virtual machine reCreating a bridge
+for virtual machinidge for virtual machines
+Ifconfig ///displays the current configuration for a network interface when no optional
+parameters are supplied
+sudo virt-manager
